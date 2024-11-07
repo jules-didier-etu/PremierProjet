@@ -6,24 +6,28 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* Gris clair */
+    background-color: #f0f0f0;
 }
 
 h1 {
-    font-size: 3rem; /* Titre centré en haut */
+    font-size: 3rem;
     margin-bottom: 20px;
 }
 
 select {
     font-size: 1.2rem;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* Augmenté pour plus d'espace */
 }
 
 #gif-container {
-    width: 80%;
+    width: 100%; /* Assure le conteneur centré */
     max-width: 600px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Espace supplémentaire au-dessus */
 }
 
 iframe {
